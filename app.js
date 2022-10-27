@@ -1,9 +1,8 @@
 const _ = require('lodash')
 
-console.log('hello from app');
 
-
-const items = [1, [2, [3, [4]]]]
-const newItems = _.flattenDeep(items)
-
-console.log(newItems);
+console.log('first');
+setTimeout(()=>{
+    console.log('second');
+},0)
+console.log('third');
